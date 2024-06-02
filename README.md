@@ -1,7 +1,5 @@
 # EEG-Band-Merging-Tool-Combine-Frequency-Bands-into-One-EEG-Structure-and-Save-as-EDF
 
-# EEG Data Processing Script
-
 ## Description
 This MATLAB script processes EEG data files in EDF format. It utilizes functions from the EEGLAB toolbox along with other MATLAB functions to perform resampling, filtering, and data manipulation tasks.
 
