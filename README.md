@@ -1,0 +1,1 @@
+# EEG-Band-Merging-Tool-Combine-Frequency-Bands-into-One-EEG-Structure-and-Save-as-EDF
