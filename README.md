@@ -1,7 +1,10 @@
 # EEG-Band-Merging-Tool-Combine-Frequency-Bands-into-One-EEG-Structure-and-Save-as-EDF
 
+In our research group, my Principal Investigator (P.I.), a retired neurologist, has expressed the need to visually inspect all frequency bands in a single trace on a large monitor to enhance the detection of abnormalities in EEG data. To address this requirement, we developed this tool to merge filtered versions of EEG recordings into a unified trace, facilitating comprehensive analysis and anomaly identification.
+
 ## Description
 This MATLAB script processes EEG data files in EDF format. It utilizes functions from the EEGLAB toolbox along with other MATLAB functions to perform resampling, filtering, and data manipulation tasks.
+
 
 ## Prerequisites
 To use this script, you need to have the following prerequisites installed and available in your MATLAB environment:
