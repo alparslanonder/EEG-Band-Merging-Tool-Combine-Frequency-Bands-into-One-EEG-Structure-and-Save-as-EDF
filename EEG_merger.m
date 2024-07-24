@@ -66,8 +66,8 @@ for file_idx = 1:length(fileList)
 
     % Merge all frequency bands into one EEG structure and save as an EDF file
     EEG_merged = EEG;
-    EEG_merged.data = vertcat(EEG.data, EEG_delta.data, EEG_theta.data, EEG_alpha.data, EEG_igler.data);
-    EEG_merged.chanlocs = vertcat(EEG.chanlocs, EEG_delta.chanlocs, EEG_theta.chanlocs, EEG_alpha.chanlocs, EEG_igler.chanlocs);
+    EEG_merged.data = vertcat(EEG.data, EEG_delta.data, EEG_theta.data, EEG_alpha.data, EEG_Spindle.data);
+    EEG_merged.chanlocs = vertcat(EEG.chanlocs, EEG_delta.chanlocs, EEG_theta.chanlocs, EEG_alpha.chanlocs, EEG_Spindle.chanlocs);
     EEG_merged.nbchan = size(EEG_merged.data,1);
     pop_writeeeg(EEG_merged, [outputFolderName '\' filenameWithoutExt '_All_Merged.edf'], 'TYPE', 'EDF');
 end
