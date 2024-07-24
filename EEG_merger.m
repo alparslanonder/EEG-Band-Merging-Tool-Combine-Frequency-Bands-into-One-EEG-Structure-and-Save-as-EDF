@@ -5,7 +5,7 @@ clc;
 clear;
 
 % Define the path to the main folder containing the EDF files
-mainFolderPath='C:\Users\alpar\Desktop\1'; % Replace with your folder path
+mainFolderPath='C:\Users\User\Desktop\Folder'; % Replace with your folder path
 
 % Get the list of EDF files in the main folder
 fileList = dir(fullfile(mainFolderPath, '*.edf'));
